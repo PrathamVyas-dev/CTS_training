@@ -1,0 +1,15 @@
+C:\Users\2401673\Videos\CTS_training\April2\HellowWorld-A\bin\Debug\net8.0\HellowWorld-A.exe
+C:\Users\2401673\Videos\CTS_training\April2\HellowWorld-A\bin\Debug\net8.0\HellowWorld-A.deps.json
+C:\Users\2401673\Videos\CTS_training\April2\HellowWorld-A\bin\Debug\net8.0\HellowWorld-A.runtimeconfig.json
+C:\Users\2401673\Videos\CTS_training\April2\HellowWorld-A\bin\Debug\net8.0\HellowWorld-A.dll
+C:\Users\2401673\Videos\CTS_training\April2\HellowWorld-A\bin\Debug\net8.0\HellowWorld-A.pdb
+C:\Users\2401673\Videos\CTS_training\April2\HellowWorld-A\obj\Debug\net8.0\HellowWorld-A.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2401673\Videos\CTS_training\April2\HellowWorld-A\obj\Debug\net8.0\HellowWorld-A.AssemblyInfoInputs.cache
+C:\Users\2401673\Videos\CTS_training\April2\HellowWorld-A\obj\Debug\net8.0\HellowWorld-A.AssemblyInfo.cs
+C:\Users\2401673\Videos\CTS_training\April2\HellowWorld-A\obj\Debug\net8.0\HellowWorld-A.csproj.CoreCompileInputs.cache
+C:\Users\2401673\Videos\CTS_training\April2\HellowWorld-A\obj\Debug\net8.0\HellowWorld-A.sourcelink.json
+C:\Users\2401673\Videos\CTS_training\April2\HellowWorld-A\obj\Debug\net8.0\HellowWorld-A.dll
+C:\Users\2401673\Videos\CTS_training\April2\HellowWorld-A\obj\Debug\net8.0\refint\HellowWorld-A.dll
+C:\Users\2401673\Videos\CTS_training\April2\HellowWorld-A\obj\Debug\net8.0\HellowWorld-A.pdb
+C:\Users\2401673\Videos\CTS_training\April2\HellowWorld-A\obj\Debug\net8.0\HellowWorld-A.genruntimeconfig.cache
+C:\Users\2401673\Videos\CTS_training\April2\HellowWorld-A\obj\Debug\net8.0\ref\HellowWorld-A.dll

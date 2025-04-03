@@ -1,0 +1,15 @@
+C:\Users\2401673\Videos\CTS_training\April2\HelloWorld-B\HelloWorld-B\bin\Debug\net8.0\HelloWorld-B.exe
+C:\Users\2401673\Videos\CTS_training\April2\HelloWorld-B\HelloWorld-B\bin\Debug\net8.0\HelloWorld-B.deps.json
+C:\Users\2401673\Videos\CTS_training\April2\HelloWorld-B\HelloWorld-B\bin\Debug\net8.0\HelloWorld-B.runtimeconfig.json
+C:\Users\2401673\Videos\CTS_training\April2\HelloWorld-B\HelloWorld-B\bin\Debug\net8.0\HelloWorld-B.dll
+C:\Users\2401673\Videos\CTS_training\April2\HelloWorld-B\HelloWorld-B\bin\Debug\net8.0\HelloWorld-B.pdb
+C:\Users\2401673\Videos\CTS_training\April2\HelloWorld-B\HelloWorld-B\obj\Debug\net8.0\HelloWorld-B.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2401673\Videos\CTS_training\April2\HelloWorld-B\HelloWorld-B\obj\Debug\net8.0\HelloWorld-B.AssemblyInfoInputs.cache
+C:\Users\2401673\Videos\CTS_training\April2\HelloWorld-B\HelloWorld-B\obj\Debug\net8.0\HelloWorld-B.AssemblyInfo.cs
+C:\Users\2401673\Videos\CTS_training\April2\HelloWorld-B\HelloWorld-B\obj\Debug\net8.0\HelloWorld-B.csproj.CoreCompileInputs.cache
+C:\Users\2401673\Videos\CTS_training\April2\HelloWorld-B\HelloWorld-B\obj\Debug\net8.0\HelloWorld-B.sourcelink.json
+C:\Users\2401673\Videos\CTS_training\April2\HelloWorld-B\HelloWorld-B\obj\Debug\net8.0\HelloWorld-B.dll
+C:\Users\2401673\Videos\CTS_training\April2\HelloWorld-B\HelloWorld-B\obj\Debug\net8.0\refint\HelloWorld-B.dll
+C:\Users\2401673\Videos\CTS_training\April2\HelloWorld-B\HelloWorld-B\obj\Debug\net8.0\HelloWorld-B.pdb
+C:\Users\2401673\Videos\CTS_training\April2\HelloWorld-B\HelloWorld-B\obj\Debug\net8.0\HelloWorld-B.genruntimeconfig.cache
+C:\Users\2401673\Videos\CTS_training\April2\HelloWorld-B\HelloWorld-B\obj\Debug\net8.0\ref\HelloWorld-B.dll
