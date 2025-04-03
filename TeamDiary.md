@@ -38,14 +38,17 @@ An Excellent morning to all of you. Today's Agenda
 
 Morning Session (Up to Lunch Time)
 
-1.C# Essentials
-1.Writing Classes and Creating Objects and 'var' usage
-1.Functions
-1.Try Catch
-1.CaveMan/CaveWoman Debugging
-1.Commenting and Documentation
-1.Operators and If Else If
-
+1. Writing Classes and Creating Objects and 'var' usage
+1. CaveMan/CaveWoman Debugging
+1. Web API Project
+1. Swagger Docs
+1. Postman
+1. Collections
+1. Sharing Collections
+1. Interfaces and Inheritance and Implementation
+1. For Each and For Loops
+1. Dependency Injection
+ 
 After Lunch
-1.Finish watching that Udemy Course on Agile
-1.Doubt Clearing, Usual Project Planning and Code Discussion
+1. Any pending/future Udemy Courses
+1. Doubt Clearing, Usual Project Planning and Code Discussion
