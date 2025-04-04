@@ -318,6 +318,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "HelloWorld_A.Controllers.MathController",
+    "Method": "Post",
+    "RelativePath": "api/Math",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parameters",
+        "Type": "HelloWorld_A.model.MathParameters",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "HelloWorld_A.Controllers.MonkeyController",
     "Method": "Post",
     "RelativePath": "api/Monkey",

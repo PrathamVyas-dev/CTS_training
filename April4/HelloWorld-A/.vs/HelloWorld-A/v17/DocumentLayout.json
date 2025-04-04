@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|c:\\users\\2401673\\videos\\cts_training\\april4\\helloworld-a\\helloworld-a\\controllers\\mathcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|solutionrelative:helloworld-a\\controllers\\mathcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|c:\\users\\2401673\\videos\\cts_training\\april4\\helloworld-a\\helloworld-a\\model\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|solutionrelative:helloworld-a\\model\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|c:\\users\\2401673\\videos\\cts_training\\april4\\helloworld-a\\helloworld-a\\model\\math.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|solutionrelative:helloworld-a\\model\\math.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|c:\\users\\2401673\\videos\\cts_training\\april4\\helloworld-a\\helloworld-a\\controllers\\bearcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|solutionrelative:helloworld-a\\controllers\\bearcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -66,28 +78,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BearController.cs",
-              "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Controllers\\BearController.cs",
-              "RelativeDocumentMoniker": "HelloWorld-A\\Controllers\\BearController.cs",
-              "ToolTip": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Controllers\\BearController.cs",
-              "RelativeToolTip": "HelloWorld-A\\Controllers\\BearController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwCMAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T11:27:23.904Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\model\\Result.cs",
+              "RelativeDocumentMoniker": "HelloWorld-A\\model\\Result.cs",
+              "ToolTip": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\model\\Result.cs",
+              "RelativeToolTip": "HelloWorld-A\\model\\Result.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T12:13:13.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Math.cs",
+              "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\model\\Math.cs",
+              "RelativeDocumentMoniker": "HelloWorld-A\\model\\Math.cs",
+              "ToolTip": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\model\\Math.cs",
+              "RelativeToolTip": "HelloWorld-A\\model\\Math.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADgvxQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T12:10:03.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MathController.cs",
+              "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Controllers\\MathController.cs",
+              "RelativeDocumentMoniker": "HelloWorld-A\\Controllers\\MathController.cs",
+              "ToolTip": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Controllers\\MathController.cs",
+              "RelativeToolTip": "HelloWorld-A\\Controllers\\MathController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T12:09:31.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BearController.cs",
+              "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Controllers\\BearController.cs",
+              "RelativeDocumentMoniker": "HelloWorld-A\\Controllers\\BearController.cs",
+              "ToolTip": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Controllers\\BearController.cs",
+              "RelativeToolTip": "HelloWorld-A\\Controllers\\BearController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T11:27:23.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "CrocodileController.cs",
               "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Controllers\\CrocodileController.cs",
               "RelativeDocumentMoniker": "HelloWorld-A\\Controllers\\CrocodileController.cs",
@@ -95,12 +146,11 @@
               "RelativeToolTip": "HelloWorld-A\\Controllers\\CrocodileController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T05:20:54.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T05:20:54.697Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "TigerController.cs",
               "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Controllers\\TigerController.cs",
               "RelativeDocumentMoniker": "HelloWorld-A\\Controllers\\TigerController.cs",
@@ -108,12 +158,11 @@
               "RelativeToolTip": "HelloWorld-A\\Controllers\\TigerController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T04:08:00.092Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T04:08:00.092Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "MonkeyController.cs",
               "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Controllers\\MonkeyController.cs",
               "RelativeDocumentMoniker": "HelloWorld-A\\Controllers\\MonkeyController.cs",
@@ -121,12 +170,11 @@
               "RelativeToolTip": "HelloWorld-A\\Controllers\\MonkeyController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T04:09:08.44Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T04:09:08.44Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "GiraffeController.cs",
               "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Controllers\\GiraffeController.cs",
               "RelativeDocumentMoniker": "HelloWorld-A\\Controllers\\GiraffeController.cs",
@@ -134,12 +182,11 @@
               "RelativeToolTip": "HelloWorld-A\\Controllers\\GiraffeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T04:08:35.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T04:08:35.41Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "ElephantController.cs",
               "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Controllers\\ElephantController.cs",
               "RelativeDocumentMoniker": "HelloWorld-A\\Controllers\\ElephantController.cs",
@@ -147,12 +194,11 @@
               "RelativeToolTip": "HelloWorld-A\\Controllers\\ElephantController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T04:10:10.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T04:10:10.915Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Crocodile.cs",
               "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\model\\Crocodile.cs",
               "RelativeDocumentMoniker": "HelloWorld-A\\model\\Crocodile.cs",
@@ -160,12 +206,11 @@
               "RelativeToolTip": "HelloWorld-A\\model\\Crocodile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T03:57:07.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T03:57:07.427Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "DeerController.cs",
               "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Controllers\\DeerController.cs",
               "RelativeDocumentMoniker": "HelloWorld-A\\Controllers\\DeerController.cs",
@@ -173,12 +218,11 @@
               "RelativeToolTip": "HelloWorld-A\\Controllers\\DeerController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T04:08:24.072Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T04:08:24.072Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "WolfController.cs",
               "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Controllers\\WolfController.cs",
               "RelativeDocumentMoniker": "HelloWorld-A\\Controllers\\WolfController.cs",
@@ -186,12 +230,11 @@
               "RelativeToolTip": "HelloWorld-A\\Controllers\\WolfController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T04:09:24.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T04:09:24.635Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "ZebraController.cs",
               "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Controllers\\ZebraController.cs",
               "RelativeDocumentMoniker": "HelloWorld-A\\Controllers\\ZebraController.cs",
@@ -199,12 +242,11 @@
               "RelativeToolTip": "HelloWorld-A\\Controllers\\ZebraController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T04:08:51.201Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T04:08:51.201Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Bear.cs",
               "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\model\\Bear.cs",
               "RelativeDocumentMoniker": "HelloWorld-A\\model\\Bear.cs",
@@ -212,12 +254,11 @@
               "RelativeToolTip": "HelloWorld-A\\model\\Bear.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T04:06:09.763Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T04:06:09.763Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Program.cs",
               "RelativeDocumentMoniker": "HelloWorld-A\\Program.cs",
@@ -229,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "LionController.cs",
               "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Controllers\\LionController.cs",
               "RelativeDocumentMoniker": "HelloWorld-A\\Controllers\\LionController.cs",
@@ -237,12 +278,11 @@
               "RelativeToolTip": "HelloWorld-A\\Controllers\\LionController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T04:07:39.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T04:07:39.774Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "HelloWorld-A",
               "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\HelloWorld-A.csproj",
               "RelativeDocumentMoniker": "HelloWorld-A\\HelloWorld-A.csproj",

@@ -569,6 +569,37 @@
         }
       }
     },
+    "/api/Math": {
+      "post": {
+        "tags": [
+          "Math"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MathParameters"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MathParameters"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MathParameters"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Monkey/{id}": {
       "get": {
         "tags": [
@@ -1052,6 +1083,20 @@
           "age": {
             "type": "integer",
             "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MathParameters": {
+        "type": "object",
+        "properties": {
+          "firstnumber": {
+            "type": "number",
+            "format": "double"
+          },
+          "secondnumber": {
+            "type": "number",
+            "format": "double"
           }
         },
         "additionalProperties": false
