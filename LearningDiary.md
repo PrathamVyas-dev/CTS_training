@@ -2,6 +2,35 @@
 
 Hello
  
+### April 04th 2025
+
+An Excellent morning to all of you. Today's Agenda
+
+Morning Session (Up to Lunch Time)
+
+something something!!
+
+ ### April 03rd 2025
+
+An Excellent morning to all of you. Today's Agenda
+
+Morning Session (Up to Lunch Time)
+
+1. Writing Classes and Creating Objects and 'var' usage
+1. CaveMan/CaveWoman Debugging
+1. Web API Project
+1. Swagger Docs
+1. Postman
+1. Collections
+1. Sharing Collections
+1. Interfaces and Inheritance and Implementation
+1. For Each and For Loops
+1. Dependency Injection
+ 
+After Lunch
+1. Any pending/future Udemy Courses
+1. Doubt Clearing, Usual Project Planning and Code Discussion
+
 ## April 02nd 2025
  
 Folks
@@ -31,24 +60,3 @@ Links for Today
 1. Completed ‘Developer Career Path’ — Microsoft Learn | by Jay (Vijayasimha BR) | Mar, 2025 | Medium (https://vijayasimhabr.medium.com/completed-developer-career-path-microsoft-learn-7a1b5720dc78)
 1. Coding Tutor Tip 9 — Caveman Debugging | by Jay (Vijayasimha BR) | Medium (https://vijayasimhabr.medium.com/coding-tutor-tip-9-caveman-debugging-58369c1a6760)
  
-
- ### April 03rd 2025
-
-An Excellent morning to all of you. Today's Agenda
-
-Morning Session (Up to Lunch Time)
-
-1. Writing Classes and Creating Objects and 'var' usage
-1. CaveMan/CaveWoman Debugging
-1. Web API Project
-1. Swagger Docs
-1. Postman
-1. Collections
-1. Sharing Collections
-1. Interfaces and Inheritance and Implementation
-1. For Each and For Loops
-1. Dependency Injection
- 
-After Lunch
-1. Any pending/future Udemy Courses
-1. Doubt Clearing, Usual Project Planning and Code Discussion
