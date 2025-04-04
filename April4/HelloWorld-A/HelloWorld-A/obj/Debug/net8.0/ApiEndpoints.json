@@ -1,16 +1,6 @@
 [
   {
     "ContainingType": "HelloWorld_A.Controllers.BearController",
-    "Method": "Get",
-    "RelativePath": "api/Bear",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "HelloWorld_A.Controllers.BearController",
     "Method": "Post",
     "RelativePath": "api/Bear",
     "HttpMethod": "POST",
@@ -18,7 +8,44 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "lion",
+        "Name": "bear",
+        "Type": "HelloWorld_A.Properties.Bear",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.BearController",
+    "Method": "Get",
+    "RelativePath": "api/Bear/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.BearController",
+    "Method": "Put",
+    "RelativePath": "api/Bear/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedBear",
         "Type": "HelloWorld_A.Properties.Bear",
         "IsRequired": true
       }
@@ -53,16 +80,6 @@
   },
   {
     "ContainingType": "HelloWorld_A.Controllers.DeerController",
-    "Method": "Get",
-    "RelativePath": "api/Deer",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "HelloWorld_A.Controllers.DeerController",
     "Method": "Post",
     "RelativePath": "api/Deer",
     "HttpMethod": "POST",
@@ -70,7 +87,44 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "lion",
+        "Name": "deer",
+        "Type": "HelloWorld_A.Properties.Deer",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.DeerController",
+    "Method": "Get",
+    "RelativePath": "api/Deer/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.DeerController",
+    "Method": "Put",
+    "RelativePath": "api/Deer/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedDeer",
         "Type": "HelloWorld_A.Properties.Deer",
         "IsRequired": true
       }
@@ -79,16 +133,6 @@
   },
   {
     "ContainingType": "HelloWorld_A.Controllers.ElephantController",
-    "Method": "Get",
-    "RelativePath": "api/Elephant",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "HelloWorld_A.Controllers.ElephantController",
     "Method": "Post",
     "RelativePath": "api/Elephant",
     "HttpMethod": "POST",
@@ -96,7 +140,7 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "lion",
+        "Name": "elephant",
         "Type": "HelloWorld_A.Properties.Elephant",
         "IsRequired": true
       }
@@ -104,13 +148,40 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "HelloWorld_A.Controllers.GiraffeController",
+    "ContainingType": "HelloWorld_A.Controllers.ElephantController",
     "Method": "Get",
-    "RelativePath": "api/Giraffe",
+    "RelativePath": "api/Elephant/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.ElephantController",
+    "Method": "Put",
+    "RelativePath": "api/Elephant/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedElephant",
+        "Type": "HelloWorld_A.Properties.Elephant",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -130,25 +201,73 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "HelloWorld_A.Controllers.LionController",
+    "ContainingType": "HelloWorld_A.Controllers.GiraffeController",
     "Method": "Get",
-    "RelativePath": "api/Lion",
+    "RelativePath": "api/Giraffe/{id}",
     "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "HelloWorld_A.Controllers.LionController",
-    "Method": "Post",
-    "RelativePath": "api/Lion",
-    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "lion",
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.GiraffeController",
+    "Method": "Put",
+    "RelativePath": "api/Giraffe/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedGiraffe",
+        "Type": "HelloWorld_A.Properties.Giraffe",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.LionController",
+    "Method": "Get",
+    "RelativePath": "api/Lion/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.LionController",
+    "Method": "Put",
+    "RelativePath": "api/Lion/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedLion",
         "Type": "HelloWorld_A.Properties.Lion",
         "IsRequired": true
       }
@@ -157,16 +276,6 @@
   },
   {
     "ContainingType": "HelloWorld_A.Controllers.MonkeyController",
-    "Method": "Get",
-    "RelativePath": "api/Monkey",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "HelloWorld_A.Controllers.MonkeyController",
     "Method": "Post",
     "RelativePath": "api/Monkey",
     "HttpMethod": "POST",
@@ -174,7 +283,44 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "lion",
+        "Name": "monkey",
+        "Type": "HelloWorld_A.Properties.Monkey",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.MonkeyController",
+    "Method": "Get",
+    "RelativePath": "api/Monkey/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.MonkeyController",
+    "Method": "Put",
+    "RelativePath": "api/Monkey/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedMonkey",
         "Type": "HelloWorld_A.Properties.Monkey",
         "IsRequired": true
       }
@@ -209,16 +355,6 @@
   },
   {
     "ContainingType": "HelloWorld_A.Controllers.TigerController",
-    "Method": "Get",
-    "RelativePath": "api/Tiger",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "HelloWorld_A.Controllers.TigerController",
     "Method": "Post",
     "RelativePath": "api/Tiger",
     "HttpMethod": "POST",
@@ -226,7 +362,44 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "lion",
+        "Name": "tiger",
+        "Type": "HelloWorld_A.Properties.Tiger",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.TigerController",
+    "Method": "Get",
+    "RelativePath": "api/Tiger/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.TigerController",
+    "Method": "Put",
+    "RelativePath": "api/Tiger/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedTiger",
         "Type": "HelloWorld_A.Properties.Tiger",
         "IsRequired": true
       }
@@ -235,16 +408,6 @@
   },
   {
     "ContainingType": "HelloWorld_A.Controllers.WolfController",
-    "Method": "Get",
-    "RelativePath": "api/Wolf",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "HelloWorld_A.Controllers.WolfController",
     "Method": "Post",
     "RelativePath": "api/Wolf",
     "HttpMethod": "POST",
@@ -252,7 +415,44 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "lion",
+        "Name": "wolf",
+        "Type": "HelloWorld_A.Properties.Wolf",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.WolfController",
+    "Method": "Get",
+    "RelativePath": "api/Wolf/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.WolfController",
+    "Method": "Put",
+    "RelativePath": "api/Wolf/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedWolf",
         "Type": "HelloWorld_A.Properties.Wolf",
         "IsRequired": true
       }
@@ -261,16 +461,6 @@
   },
   {
     "ContainingType": "HelloWorld_A.Controllers.ZebraController",
-    "Method": "Get",
-    "RelativePath": "api/Zebra",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "HelloWorld_A.Controllers.ZebraController",
     "Method": "Post",
     "RelativePath": "api/Zebra",
     "HttpMethod": "POST",
@@ -278,7 +468,44 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "lion",
+        "Name": "zebra",
+        "Type": "HelloWorld_A.Properties.Zebra",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.ZebraController",
+    "Method": "Get",
+    "RelativePath": "api/Zebra/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.ZebraController",
+    "Method": "Put",
+    "RelativePath": "api/Zebra/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedZebra",
         "Type": "HelloWorld_A.Properties.Zebra",
         "IsRequired": true
       }

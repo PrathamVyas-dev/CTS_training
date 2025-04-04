@@ -1,4 +1,4 @@
-﻿using HelloWorld_A.Properties;
+﻿using HelloWorld_A.model;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HelloWorld_A.Controllers
@@ -7,18 +7,39 @@ namespace HelloWorld_A.Controllers
     [Route("api/[controller]")]
     public class BearController : ControllerBase
     {
-        [HttpGet]
-        public IActionResult Get()
+        private static List<Bear> bears = new List<Bear>();
+
+        [HttpGet("{id}")]
+        public IActionResult Get(int id)
         {
-            // Your logic here
-            return Ok("Bear API is running!");
+            var bear = bears.FirstOrDefault(b => b.Id == id);
+            if (bear == null)
+            {
+                return NotFound();
+            }
+            return Ok(bear);
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] Bear lion)
+        public IActionResult Post([FromBody] Bear bear)
         {
-            // Your logic here
-            return Ok(lion);
+            bears.Add(bear);
+            return Ok(bear);
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult Put(int id, [FromBody] Bear updatedBear)
+        {
+            var bear = bears.FirstOrDefault(b => b.Id == id);
+            if (bear == null)
+            {
+                return NotFound();
+            }
+
+            bear.Name = updatedBear.Name;
+            bear.Age = updatedBear.Age;
+
+            return Ok(bear);
         }
     }
 }

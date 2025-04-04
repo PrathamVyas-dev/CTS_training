@@ -1,3 +1,5 @@
+using HelloWorld_A.model;
+using HelloWorld_A.Properties;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HelloWorld_A.Controllers
@@ -6,17 +8,38 @@ namespace HelloWorld_A.Controllers
     [Route("api/[controller]")]
     public class CrocodileController : ControllerBase
     {
-        [HttpGet]
-        public IActionResult Get()
+        private static List<Crocodile> crocodiles = new List<Crocodile>();
+
+        [HttpGet("{id}")]
+        public IActionResult Get(int id)
         {
-            // Your logic here
-            return Ok("Crocodile API is running!");
+            var crocodile = crocodiles.FirstOrDefault(c => c.Id == id);
+            if (crocodile == null)
+            {
+                return NotFound();
+            }
+            return Ok(crocodile);
         }
 
         [HttpPost]
         public IActionResult Post([FromBody] Crocodile crocodile)
         {
-            // Your logic here
+            crocodiles.Add(crocodile);
+            return Ok(crocodile);
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult Put(int id, [FromBody] Crocodile updatedCrocodile)
+        {
+            var crocodile = crocodiles.FirstOrDefault(c => c.Id == id);
+            if (crocodile == null)
+            {
+                return NotFound();
+            }
+
+            crocodile.Name = updatedCrocodile.Name;
+            crocodile.Age = updatedCrocodile.Age;
+
             return Ok(crocodile);
         }
     }

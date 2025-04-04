@@ -1,4 +1,4 @@
-﻿namespace HelloWorld_A.Properties
+﻿namespace HelloWorld_A.model
 {
     public class Bear
     {

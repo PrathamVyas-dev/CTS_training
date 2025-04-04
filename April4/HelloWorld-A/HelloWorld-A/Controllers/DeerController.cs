@@ -7,18 +7,39 @@ namespace HelloWorld_A.Controllers
     [Route("api/[controller]")]
     public class DeerController : ControllerBase
     {
-        [HttpGet]
-        public IActionResult Get()
+        private static List<Deer> deers = new List<Deer>();
+
+        [HttpGet("{id}")]
+        public IActionResult Get(int id)
         {
-            // Your logic here
-            return Ok("Deer API is running!");
+            var deer = deers.FirstOrDefault(d => d.Id == id);
+            if (deer == null)
+            {
+                return NotFound();
+            }
+            return Ok(deer);
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] Deer lion)
+        public IActionResult Post([FromBody] Deer deer)
         {
-            // Your logic here
-            return Ok(lion);
+            deers.Add(deer);
+            return Ok(deer);
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult Put(int id, [FromBody] Deer updatedDeer)
+        {
+            var deer = deers.FirstOrDefault(d => d.Id == id);
+            if (deer == null)
+            {
+                return NotFound();
+            }
+
+            deer.Name = updatedDeer.Name;
+            deer.Age = updatedDeer.Age;
+
+            return Ok(deer);
         }
     }
 }

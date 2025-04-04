@@ -7,18 +7,39 @@ namespace HelloWorld_A.Controllers
     [Route("api/[controller]")]
     public class ElephantController : ControllerBase
     {
-        [HttpGet]
-        public IActionResult Get()
+        private static List<Elephant> elephants = new List<Elephant>();
+
+        [HttpGet("{id}")]
+        public IActionResult Get(int id)
         {
-            // Your logic here
-            return Ok("Elephant API is running!");
+            var elephant = elephants.FirstOrDefault(e => e.Id == id);
+            if (elephant == null)
+            {
+                return NotFound();
+            }
+            return Ok(elephant);
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] Elephant lion)
+        public IActionResult Post([FromBody] Elephant elephant)
         {
-            // Your logic here
-            return Ok(lion);
+            elephants.Add(elephant);
+            return Ok(elephant);
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult Put(int id, [FromBody] Elephant updatedElephant)
+        {
+            var elephant = elephants.FirstOrDefault(e => e.Id == id);
+            if (elephant == null)
+            {
+                return NotFound();
+            }
+
+            elephant.Name = updatedElephant.Name;
+            elephant.Age = updatedElephant.Age;
+
+            return Ok(elephant);
         }
     }
 }

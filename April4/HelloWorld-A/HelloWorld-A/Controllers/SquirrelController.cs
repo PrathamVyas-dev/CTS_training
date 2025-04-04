@@ -7,18 +7,39 @@ namespace HelloWorld_A.Controllers
     [Route("api/[controller]")]
     public class SquirrelController : ControllerBase
     {
-        [HttpGet]
-        public IActionResult Get()
+        private static List<Squirrel> squirrels = new List<Squirrel>();
+
+        [HttpGet("{id}")]
+        public IActionResult Get(int id)
         {
-            // Your logic here
-            return Ok("Squirrel API is running!");
+            var squirrel = squirrels.FirstOrDefault(s => s.Id == id);
+            if (squirrel == null)
+            {
+                return NotFound();
+            }
+            return Ok(squirrel);
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] Squirrel lion)
+        public IActionResult Post([FromBody] Squirrel squirrel)
         {
-            // Your logic here
-            return Ok(lion);
+            squirrels.Add(squirrel);
+            return Ok(squirrel);
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult Put(int id, [FromBody] Squirrel updatedSquirrel)
+        {
+            var squirrel = squirrels.FirstOrDefault(s => s.Id == id);
+            if (squirrel == null)
+            {
+                return NotFound();
+            }
+
+            squirrel.Name = updatedSquirrel.Name;
+            squirrel.Age = updatedSquirrel.Age;
+
+            return Ok(squirrel);
         }
     }
 }

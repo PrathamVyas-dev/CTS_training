@@ -7,18 +7,40 @@ namespace HelloWorld_A.Controllers
     [Route("api/[controller]")]
     public class WolfController : ControllerBase
     {
-        [HttpGet]
-        public IActionResult Get()
+        private static List<Wolf> wolves = new List<Wolf>();
+
+        [HttpGet("{id}")]
+        public IActionResult Get(int id)
         {
-            // Your logic here
-            return Ok("Wolf API is running!");
+            var wolf = wolves.FirstOrDefault(w => w.Id == id);
+            if (wolf == null)
+            {
+                return NotFound();
+            }
+            return Ok(wolf);
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] Wolf lion)
+        public IActionResult Post([FromBody] Wolf wolf)
         {
-            // Your logic here
-            return Ok(lion);
+            wolves.Add(wolf);
+            return Ok(wolf);
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult Put(int id, [FromBody] Wolf updatedWolf)
+        {
+            var wolf = wolves.FirstOrDefault(w => w.Id == id);
+            if (wolf == null)
+            {
+                return NotFound();
+            }
+
+            wolf.Name = updatedWolf.Name;
+            wolf.Age = updatedWolf.Age;
+
+            return Ok(wolf);
         }
     }
+
 }

@@ -7,17 +7,35 @@ namespace HelloWorld_A.Controllers
     [Route("api/[controller]")]
     public class LionController : ControllerBase
     {
-        [HttpGet]
-        public IActionResult Get()
+        private static List<Lion> lions = new List<Lion>
+    {
+        new Lion { Id = 1, Name = "Simba", Age = 3 },
+        new Lion { Id = 2, Name = "Mufasa", Age = 8 }
+    };
+
+        [HttpGet("{id}")]
+        public IActionResult Get(int id)
         {
-            // Your logic here
-            return Ok("Lion API is running!");
+            var lion = lions.FirstOrDefault(l => l.Id == id);
+            if (lion == null)
+            {
+                return NotFound();
+            }
+            return Ok(lion);
         }
 
-        [HttpPost]
-        public IActionResult Post([FromBody] Lion lion)
+        [HttpPut("{id}")]
+        public IActionResult Put(int id, [FromBody] Lion updatedLion)
         {
-            // Your logic here
+            var lion = lions.FirstOrDefault(l => l.Id == id);
+            if (lion == null)
+            {
+                return NotFound();
+            }
+
+            lion.Name = updatedLion.Name;
+            lion.Age = updatedLion.Age;
+
             return Ok(lion);
         }
     }

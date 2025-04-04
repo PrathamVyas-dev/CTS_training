@@ -6,9 +6,20 @@ Hello
 
 An Excellent morning to all of you. Today's Agenda
 
-Morning Session (Up to Lunch Time)
+Morning and Afternoon
+ 
+1. Writing Classes and Creating Objects and 'var' usage
+1. Web API Project
+1. Sharing Postman Collections
+1. Interfaces and Inheritance and Implementation
+1. Dependency Injection
+1. Setting up SQL Express, Introduction to SQL, database and some general queries
+ 
+Usual Activities
+ 
+1. Any pending/future Udemy Courses
+1. Doubt Clearing, Usual Project Planning and Code Discussion
 
-something something!!
 
  ### April 03rd 2025
 
