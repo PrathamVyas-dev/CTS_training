@@ -24,6 +24,13 @@ namespace HelloWorld_A.Controllers
             return Ok(lion);
         }
 
+        [HttpPost]
+        public IActionResult Post([FromBody] Lion lion)
+        {
+            lions.Add(lion);
+            return Ok(lion);
+        }
+
         [HttpPut("{id}")]
         public IActionResult Put(int id, [FromBody] Lion updatedLion)
         {

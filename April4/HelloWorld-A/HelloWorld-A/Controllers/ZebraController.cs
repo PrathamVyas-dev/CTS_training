@@ -7,7 +7,11 @@ namespace HelloWorld_A.Controllers
     [Route("api/[controller]")]
     public class ZebraController : ControllerBase
     {
-        private static List<Zebra> zebras = new List<Zebra>();
+        private static List<Zebra> zebras = new List<Zebra>
+        {
+            new Zebra() { Id = 1, Name = "Ziggy", Age = 3 },
+            new Zebra() { Id = 2, Name = "Zara", Age = 5 }
+        };
 
         [HttpGet("{id}")]
         public IActionResult Get(int id)

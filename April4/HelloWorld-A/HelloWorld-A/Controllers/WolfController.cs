@@ -7,7 +7,11 @@ namespace HelloWorld_A.Controllers
     [Route("api/[controller]")]
     public class WolfController : ControllerBase
     {
-        private static List<Wolf> wolves = new List<Wolf>();
+        private static List<Wolf> wolves = new List<Wolf>
+        {
+            new Wolf() { Id = 1, Name = "Wolfie", Age = 4 },
+            new Wolf() { Id = 2, Name = "Lobo", Age = 6 }
+        };
 
         [HttpGet("{id}")]
         public IActionResult Get(int id)

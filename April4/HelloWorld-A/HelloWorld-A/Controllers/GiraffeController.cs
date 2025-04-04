@@ -7,7 +7,11 @@ namespace HelloWorld_A.Controllers
     [Route("api/[controller]")]
     public class GiraffeController : ControllerBase
     {
-        private static List<Giraffe> giraffes = new List<Giraffe>();
+        private static List<Giraffe> giraffes = new List<Giraffe>
+        {
+            new Giraffe() { Id = 1, Name = "Gigi", Age = 4 },
+            new Giraffe() { Id = 2, Name = "Gerry", Age = 6 }
+        };
 
         [HttpGet("{id}")]
         public IActionResult Get(int id)

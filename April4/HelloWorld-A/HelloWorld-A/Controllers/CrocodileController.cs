@@ -8,7 +8,11 @@ namespace HelloWorld_A.Controllers
     [Route("api/[controller]")]
     public class CrocodileController : ControllerBase
     {
-        private static List<Crocodile> crocodiles = new List<Crocodile>();
+        private static List<Crocodile> crocodiles = new List<Crocodile>
+    {
+        new Crocodile() { Id = 1, Name = "Coco", Age = 4 },
+        new Crocodile() { Id = 2, Name = "Croc", Age = 6 }
+    };
 
         [HttpGet("{id}")]
         public IActionResult Get(int id)

@@ -1,4 +1,5 @@
 ﻿using HelloWorld_A.model;
+using HelloWorld_A.Properties;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HelloWorld_A.Controllers
@@ -7,7 +8,11 @@ namespace HelloWorld_A.Controllers
     [Route("api/[controller]")]
     public class BearController : ControllerBase
     {
-        private static List<Bear> bears = new List<Bear>();
+        private static List<Bear> bears = new List<Bear>
+    {
+        new Bear() { Id = 1, Name = "Baloo", Age = 5 },
+        new Bear() { Id = 2, Name = "Yogi", Age = 7 }
+    };
 
         [HttpGet("{id}")]
         public IActionResult Get(int id)
@@ -21,10 +26,11 @@ namespace HelloWorld_A.Controllers
         }
 
         [HttpPost]
+        [Route("AddBear")]
         public IActionResult Post([FromBody] Bear bear)
         {
             bears.Add(bear);
-            return Ok(bear);
+            return Ok("Bear Added Successfully "+bear);
         }
 
         [HttpPut("{id}")]

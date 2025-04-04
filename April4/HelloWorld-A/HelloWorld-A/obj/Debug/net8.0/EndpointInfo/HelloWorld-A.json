@@ -68,7 +68,7 @@
         }
       }
     },
-    "/api/Bear": {
+    "/api/Bear/AddBear": {
       "post": {
         "tags": [
           "Bear"
@@ -99,10 +99,21 @@
         }
       }
     },
-    "/api/Crocodile": {
+    "/api/Crocodile/{id}": {
       "get": {
         "tags": [
           "Crocodile"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
         ],
         "responses": {
           "200": {
@@ -110,6 +121,48 @@
           }
         }
       },
+      "put": {
+        "tags": [
+          "Crocodile"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Crocodile"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Crocodile"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Crocodile"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Crocodile": {
       "post": {
         "tags": [
           "Crocodile"
@@ -485,6 +538,37 @@
         }
       }
     },
+    "/api/Lion": {
+      "post": {
+        "tags": [
+          "Lion"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Lion"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Lion"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Lion"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Monkey/{id}": {
       "get": {
         "tags": [
@@ -568,47 +652,6 @@
             "application/*+json": {
               "schema": {
                 "$ref": "#/components/schemas/Monkey"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Squirrel": {
-      "get": {
-        "tags": [
-          "Squirrel"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "post": {
-        "tags": [
-          "Squirrel"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Squirrel"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Squirrel"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Squirrel"
               }
             }
           }
@@ -926,24 +969,17 @@
       "Crocodile": {
         "type": "object",
         "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
           "name": {
             "type": "string",
             "nullable": true
           },
-          "length": {
-            "type": "number",
-            "format": "double"
-          },
-          "weight": {
-            "type": "number",
-            "format": "double"
-          },
           "age": {
             "type": "integer",
             "format": "int32"
-          },
-          "isExtinct": {
-            "type": "boolean"
           }
         },
         "additionalProperties": false
@@ -1036,10 +1072,6 @@
             "format": "int32"
           }
         },
-        "additionalProperties": false
-      },
-      "Squirrel": {
-        "type": "object",
         "additionalProperties": false
       },
       "Tiger": {

@@ -1,22 +1,6 @@
 [
   {
     "ContainingType": "HelloWorld_A.Controllers.BearController",
-    "Method": "Post",
-    "RelativePath": "api/Bear",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "bear",
-        "Type": "HelloWorld_A.Properties.Bear",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "HelloWorld_A.Controllers.BearController",
     "Method": "Get",
     "RelativePath": "api/Bear/{id}",
     "HttpMethod": "GET",
@@ -46,20 +30,26 @@
       },
       {
         "Name": "updatedBear",
-        "Type": "HelloWorld_A.Properties.Bear",
+        "Type": "HelloWorld_A.model.Bear",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "HelloWorld_A.Controllers.CrocodileController",
-    "Method": "Get",
-    "RelativePath": "api/Crocodile",
-    "HttpMethod": "GET",
+    "ContainingType": "HelloWorld_A.Controllers.BearController",
+    "Method": "Post",
+    "RelativePath": "api/Bear/AddBear",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "bear",
+        "Type": "HelloWorld_A.model.Bear",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -72,7 +62,44 @@
     "Parameters": [
       {
         "Name": "crocodile",
-        "Type": "HelloWorld_A.Crocodile",
+        "Type": "HelloWorld_A.model.Crocodile",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.CrocodileController",
+    "Method": "Get",
+    "RelativePath": "api/Crocodile/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.CrocodileController",
+    "Method": "Put",
+    "RelativePath": "api/Crocodile/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedCrocodile",
+        "Type": "HelloWorld_A.model.Crocodile",
         "IsRequired": true
       }
     ],
@@ -239,6 +266,22 @@
   },
   {
     "ContainingType": "HelloWorld_A.Controllers.LionController",
+    "Method": "Post",
+    "RelativePath": "api/Lion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lion",
+        "Type": "HelloWorld_A.Properties.Lion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.LionController",
     "Method": "Get",
     "RelativePath": "api/Lion/{id}",
     "HttpMethod": "GET",
@@ -322,32 +365,6 @@
       {
         "Name": "updatedMonkey",
         "Type": "HelloWorld_A.Properties.Monkey",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "HelloWorld_A.Controllers.SquirrelController",
-    "Method": "Get",
-    "RelativePath": "api/Squirrel",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "HelloWorld_A.Controllers.SquirrelController",
-    "Method": "Post",
-    "RelativePath": "api/Squirrel",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "lion",
-        "Type": "HelloWorld_A.Properties.Squirrel",
         "IsRequired": true
       }
     ],
