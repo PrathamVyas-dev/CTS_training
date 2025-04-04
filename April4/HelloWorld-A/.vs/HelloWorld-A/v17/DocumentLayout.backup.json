@@ -1,0 +1,431 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|c:\\users\\2401673\\videos\\cts_training\\april4\\helloworld-a\\helloworld-a\\controllers\\zebracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|solutionrelative:helloworld-a\\controllers\\zebracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|c:\\users\\2401673\\videos\\cts_training\\april4\\helloworld-a\\helloworld-a\\controllers\\wolfcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|solutionrelative:helloworld-a\\controllers\\wolfcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|c:\\users\\2401673\\videos\\cts_training\\april4\\helloworld-a\\helloworld-a\\controllers\\tigercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|solutionrelative:helloworld-a\\controllers\\tigercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|c:\\users\\2401673\\videos\\cts_training\\april4\\helloworld-a\\helloworld-a\\controllers\\squirrelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|solutionrelative:helloworld-a\\controllers\\squirrelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|c:\\users\\2401673\\videos\\cts_training\\april4\\helloworld-a\\helloworld-a\\controllers\\monkeycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|solutionrelative:helloworld-a\\controllers\\monkeycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|c:\\users\\2401673\\videos\\cts_training\\april4\\helloworld-a\\helloworld-a\\controllers\\lioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|solutionrelative:helloworld-a\\controllers\\lioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|c:\\users\\2401673\\videos\\cts_training\\april4\\helloworld-a\\helloworld-a\\controllers\\giraffecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|solutionrelative:helloworld-a\\controllers\\giraffecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|c:\\users\\2401673\\videos\\cts_training\\april4\\helloworld-a\\helloworld-a\\controllers\\elephantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|solutionrelative:helloworld-a\\controllers\\elephantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|c:\\users\\2401673\\videos\\cts_training\\april4\\helloworld-a\\helloworld-a\\controllers\\deercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|solutionrelative:helloworld-a\\controllers\\deercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|c:\\users\\2401673\\videos\\cts_training\\april4\\helloworld-a\\helloworld-a\\controllers\\crocodilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|solutionrelative:helloworld-a\\controllers\\crocodilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|c:\\users\\2401673\\videos\\cts_training\\april4\\helloworld-a\\helloworld-a\\controllers\\bearcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|solutionrelative:helloworld-a\\controllers\\bearcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|c:\\users\\2401673\\videos\\cts_training\\april4\\helloworld-a\\helloworld-a\\properties\\squirrel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|solutionrelative:helloworld-a\\properties\\squirrel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|c:\\users\\2401673\\videos\\cts_training\\april4\\helloworld-a\\helloworld-a\\properties\\deer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|solutionrelative:helloworld-a\\properties\\deer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|c:\\users\\2401673\\videos\\cts_training\\april4\\helloworld-a\\helloworld-a\\properties\\wolf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|solutionrelative:helloworld-a\\properties\\wolf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|c:\\users\\2401673\\videos\\cts_training\\april4\\helloworld-a\\helloworld-a\\properties\\bear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|solutionrelative:helloworld-a\\properties\\bear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|c:\\users\\2401673\\videos\\cts_training\\april4\\helloworld-a\\helloworld-a\\properties\\monkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|solutionrelative:helloworld-a\\properties\\monkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|c:\\users\\2401673\\videos\\cts_training\\april4\\helloworld-a\\helloworld-a\\properties\\zebra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|solutionrelative:helloworld-a\\properties\\zebra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|c:\\users\\2401673\\videos\\cts_training\\april4\\helloworld-a\\helloworld-a\\properties\\giraffe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|solutionrelative:helloworld-a\\properties\\giraffe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|c:\\users\\2401673\\videos\\cts_training\\april4\\helloworld-a\\helloworld-a\\properties\\tiger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|solutionrelative:helloworld-a\\properties\\tiger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|c:\\users\\2401673\\videos\\cts_training\\april4\\helloworld-a\\helloworld-a\\properties\\elephant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|solutionrelative:helloworld-a\\properties\\elephant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|c:\\users\\2401673\\videos\\cts_training\\april4\\helloworld-a\\helloworld-a\\properties\\lion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|solutionrelative:helloworld-a\\properties\\lion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|c:\\users\\2401673\\videos\\cts_training\\april4\\helloworld-a\\helloworld-a\\helloworld-a.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|solutionrelative:helloworld-a\\helloworld-a.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|c:\\users\\2401673\\videos\\cts_training\\april4\\helloworld-a\\helloworld-a\\crocodile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|solutionrelative:helloworld-a\\crocodile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|c:\\users\\2401673\\videos\\cts_training\\april4\\helloworld-a\\helloworld-a\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B76A8C1-9040-436A-9171-77960B2DC1FB}|HelloWorld-A\\HelloWorld-A.csproj|solutionrelative:helloworld-a\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SquirrelController.cs",
+              "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Controllers\\SquirrelController.cs",
+              "RelativeDocumentMoniker": "HelloWorld-A\\Controllers\\SquirrelController.cs",
+              "ToolTip": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Controllers\\SquirrelController.cs",
+              "RelativeToolTip": "HelloWorld-A\\Controllers\\SquirrelController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T04:09:46.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TigerController.cs",
+              "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Controllers\\TigerController.cs",
+              "RelativeDocumentMoniker": "HelloWorld-A\\Controllers\\TigerController.cs",
+              "ToolTip": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Controllers\\TigerController.cs",
+              "RelativeToolTip": "HelloWorld-A\\Controllers\\TigerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T04:08:00.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WolfController.cs",
+              "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Controllers\\WolfController.cs",
+              "RelativeDocumentMoniker": "HelloWorld-A\\Controllers\\WolfController.cs",
+              "ToolTip": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Controllers\\WolfController.cs",
+              "RelativeToolTip": "HelloWorld-A\\Controllers\\WolfController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T04:09:24.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ZebraController.cs",
+              "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Controllers\\ZebraController.cs",
+              "RelativeDocumentMoniker": "HelloWorld-A\\Controllers\\ZebraController.cs",
+              "ToolTip": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Controllers\\ZebraController.cs",
+              "RelativeToolTip": "HelloWorld-A\\Controllers\\ZebraController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T04:08:51.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MonkeyController.cs",
+              "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Controllers\\MonkeyController.cs",
+              "RelativeDocumentMoniker": "HelloWorld-A\\Controllers\\MonkeyController.cs",
+              "ToolTip": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Controllers\\MonkeyController.cs",
+              "RelativeToolTip": "HelloWorld-A\\Controllers\\MonkeyController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T04:09:08.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LionController.cs",
+              "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Controllers\\LionController.cs",
+              "RelativeDocumentMoniker": "HelloWorld-A\\Controllers\\LionController.cs",
+              "ToolTip": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Controllers\\LionController.cs",
+              "RelativeToolTip": "HelloWorld-A\\Controllers\\LionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T04:07:39.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GiraffeController.cs",
+              "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Controllers\\GiraffeController.cs",
+              "RelativeDocumentMoniker": "HelloWorld-A\\Controllers\\GiraffeController.cs",
+              "ToolTip": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Controllers\\GiraffeController.cs",
+              "RelativeToolTip": "HelloWorld-A\\Controllers\\GiraffeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T04:08:35.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ElephantController.cs",
+              "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Controllers\\ElephantController.cs",
+              "RelativeDocumentMoniker": "HelloWorld-A\\Controllers\\ElephantController.cs",
+              "ToolTip": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Controllers\\ElephantController.cs",
+              "RelativeToolTip": "HelloWorld-A\\Controllers\\ElephantController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T04:10:10.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DeerController.cs",
+              "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Controllers\\DeerController.cs",
+              "RelativeDocumentMoniker": "HelloWorld-A\\Controllers\\DeerController.cs",
+              "ToolTip": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Controllers\\DeerController.cs",
+              "RelativeToolTip": "HelloWorld-A\\Controllers\\DeerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T04:08:24.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CrocodileController.cs",
+              "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Controllers\\CrocodileController.cs",
+              "RelativeDocumentMoniker": "HelloWorld-A\\Controllers\\CrocodileController.cs",
+              "ToolTip": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Controllers\\CrocodileController.cs",
+              "RelativeToolTip": "HelloWorld-A\\Controllers\\CrocodileController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:58:10.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BearController.cs",
+              "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Controllers\\BearController.cs",
+              "RelativeDocumentMoniker": "HelloWorld-A\\Controllers\\BearController.cs",
+              "ToolTip": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Controllers\\BearController.cs",
+              "RelativeToolTip": "HelloWorld-A\\Controllers\\BearController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T04:08:12.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Squirrel.cs",
+              "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Properties\\Squirrel.cs",
+              "RelativeDocumentMoniker": "HelloWorld-A\\Properties\\Squirrel.cs",
+              "ToolTip": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Properties\\Squirrel.cs",
+              "RelativeToolTip": "HelloWorld-A\\Properties\\Squirrel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T04:06:56.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Deer.cs",
+              "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Properties\\Deer.cs",
+              "RelativeDocumentMoniker": "HelloWorld-A\\Properties\\Deer.cs",
+              "ToolTip": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Properties\\Deer.cs",
+              "RelativeToolTip": "HelloWorld-A\\Properties\\Deer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T04:06:39.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Wolf.cs",
+              "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Properties\\Wolf.cs",
+              "RelativeDocumentMoniker": "HelloWorld-A\\Properties\\Wolf.cs",
+              "ToolTip": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Properties\\Wolf.cs",
+              "RelativeToolTip": "HelloWorld-A\\Properties\\Wolf.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T04:06:26.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Bear.cs",
+              "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Properties\\Bear.cs",
+              "RelativeDocumentMoniker": "HelloWorld-A\\Properties\\Bear.cs",
+              "ToolTip": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Properties\\Bear.cs",
+              "RelativeToolTip": "HelloWorld-A\\Properties\\Bear.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T04:06:09.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Monkey.cs",
+              "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Properties\\Monkey.cs",
+              "RelativeDocumentMoniker": "HelloWorld-A\\Properties\\Monkey.cs",
+              "ToolTip": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Properties\\Monkey.cs",
+              "RelativeToolTip": "HelloWorld-A\\Properties\\Monkey.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T04:05:55.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Zebra.cs",
+              "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Properties\\Zebra.cs",
+              "RelativeDocumentMoniker": "HelloWorld-A\\Properties\\Zebra.cs",
+              "ToolTip": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Properties\\Zebra.cs",
+              "RelativeToolTip": "HelloWorld-A\\Properties\\Zebra.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T04:05:36.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Giraffe.cs",
+              "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Properties\\Giraffe.cs",
+              "RelativeDocumentMoniker": "HelloWorld-A\\Properties\\Giraffe.cs",
+              "ToolTip": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Properties\\Giraffe.cs",
+              "RelativeToolTip": "HelloWorld-A\\Properties\\Giraffe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T04:05:19.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Tiger.cs",
+              "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Properties\\Tiger.cs",
+              "RelativeDocumentMoniker": "HelloWorld-A\\Properties\\Tiger.cs",
+              "ToolTip": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Properties\\Tiger.cs",
+              "RelativeToolTip": "HelloWorld-A\\Properties\\Tiger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T04:05:00.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Elephant.cs",
+              "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Properties\\Elephant.cs",
+              "RelativeDocumentMoniker": "HelloWorld-A\\Properties\\Elephant.cs",
+              "ToolTip": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Properties\\Elephant.cs",
+              "RelativeToolTip": "HelloWorld-A\\Properties\\Elephant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T04:04:18.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Lion.cs",
+              "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Properties\\Lion.cs",
+              "RelativeDocumentMoniker": "HelloWorld-A\\Properties\\Lion.cs",
+              "ToolTip": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Properties\\Lion.cs",
+              "RelativeToolTip": "HelloWorld-A\\Properties\\Lion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T04:03:20.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HelloWorld-A",
+              "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\HelloWorld-A.csproj",
+              "RelativeDocumentMoniker": "HelloWorld-A\\HelloWorld-A.csproj",
+              "ToolTip": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\HelloWorld-A.csproj",
+              "RelativeToolTip": "HelloWorld-A\\HelloWorld-A.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-04T04:02:56.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Crocodile.cs",
+              "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Crocodile.cs",
+              "RelativeDocumentMoniker": "HelloWorld-A\\Crocodile.cs",
+              "ToolTip": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Crocodile.cs",
+              "RelativeToolTip": "HelloWorld-A\\Crocodile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:57:07.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Program.cs",
+              "RelativeDocumentMoniker": "HelloWorld-A\\Program.cs",
+              "ToolTip": "C:\\Users\\2401673\\Videos\\CTS_training\\April4\\HelloWorld-A\\HelloWorld-A\\Program.cs",
+              "RelativeToolTip": "HelloWorld-A\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:56:28.171Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

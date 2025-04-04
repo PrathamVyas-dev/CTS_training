@@ -1,0 +1,288 @@
+[
+  {
+    "ContainingType": "HelloWorld_A.Controllers.BearController",
+    "Method": "Get",
+    "RelativePath": "api/Bear",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.BearController",
+    "Method": "Post",
+    "RelativePath": "api/Bear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lion",
+        "Type": "HelloWorld_A.Properties.Bear",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.CrocodileController",
+    "Method": "Get",
+    "RelativePath": "api/Crocodile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.CrocodileController",
+    "Method": "Post",
+    "RelativePath": "api/Crocodile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "crocodile",
+        "Type": "HelloWorld_A.Crocodile",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.DeerController",
+    "Method": "Get",
+    "RelativePath": "api/Deer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.DeerController",
+    "Method": "Post",
+    "RelativePath": "api/Deer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lion",
+        "Type": "HelloWorld_A.Properties.Deer",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.ElephantController",
+    "Method": "Get",
+    "RelativePath": "api/Elephant",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.ElephantController",
+    "Method": "Post",
+    "RelativePath": "api/Elephant",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lion",
+        "Type": "HelloWorld_A.Properties.Elephant",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.GiraffeController",
+    "Method": "Get",
+    "RelativePath": "api/Giraffe",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.GiraffeController",
+    "Method": "Post",
+    "RelativePath": "api/Giraffe",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "giraffe",
+        "Type": "HelloWorld_A.Properties.Giraffe",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.LionController",
+    "Method": "Get",
+    "RelativePath": "api/Lion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.LionController",
+    "Method": "Post",
+    "RelativePath": "api/Lion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lion",
+        "Type": "HelloWorld_A.Properties.Lion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.MonkeyController",
+    "Method": "Get",
+    "RelativePath": "api/Monkey",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.MonkeyController",
+    "Method": "Post",
+    "RelativePath": "api/Monkey",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lion",
+        "Type": "HelloWorld_A.Properties.Monkey",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.SquirrelController",
+    "Method": "Get",
+    "RelativePath": "api/Squirrel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.SquirrelController",
+    "Method": "Post",
+    "RelativePath": "api/Squirrel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lion",
+        "Type": "HelloWorld_A.Properties.Squirrel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.TigerController",
+    "Method": "Get",
+    "RelativePath": "api/Tiger",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.TigerController",
+    "Method": "Post",
+    "RelativePath": "api/Tiger",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lion",
+        "Type": "HelloWorld_A.Properties.Tiger",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.WolfController",
+    "Method": "Get",
+    "RelativePath": "api/Wolf",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.WolfController",
+    "Method": "Post",
+    "RelativePath": "api/Wolf",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lion",
+        "Type": "HelloWorld_A.Properties.Wolf",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.ZebraController",
+    "Method": "Get",
+    "RelativePath": "api/Zebra",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloWorld_A.Controllers.ZebraController",
+    "Method": "Post",
+    "RelativePath": "api/Zebra",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lion",
+        "Type": "HelloWorld_A.Properties.Zebra",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
