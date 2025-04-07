@@ -1,7 +1,34 @@
 # Team Diary
 
 Hello
+
+### April 07th 2025
+
+Another glorious week of training has begun. As usual, today's Agenda
  
+Morning Session
+ 
+1. SQL Queries Practice
+1. SQL Server Management Studio
+1. C# Ongoing as usual everyday
+1. GitHub and Project Management as usual everyday
+ 
+Afternoon Session
+ 
+1. Usual Udemy Stuff
+1. Usual TecStak Stuff
+1. Doubt Clearing
+1. Exploring Blogging Project (.NET and Angular)
+1. Exploring Blazor Project (.NET and Blazor)
+ 
+Links for Today
+ 
+1. https://vijayasimhabr.medium.com/practice-ms-sql-database-with-dc-comics-characters-d2d8c68025e1 
+1. https://jay-study-nildana.github.io/BungieCordBlog/ 
+1. https://github.com/Jay-study-nildana/Azure-CSharp-Corp-Trainer-Syllabus/tree/main/SQLFundamentals 
+1. https://github.com/Jay-study-nildana/BlazorForStudents
+
+
 ### April 04th 2025
 
 An Excellent morning to all of you. Today's Agenda
@@ -42,7 +69,7 @@ After Lunch
 1. Any pending/future Udemy Courses
 1. Doubt Clearing, Usual Project Planning and Code Discussion
 
-## April 02nd 2025
+### April 02nd 2025
  
 Folks
  
