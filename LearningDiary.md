@@ -3,6 +3,17 @@
 Hello
 
 connectionstring: "Server=LTIN600023\\SQLEXPRESS;Database=BungieCordBlogDBApril72025a;TrustServerCertificate=True;User Id=pratham;Password=password;"
+Add the migration: Add-Migration InitialCreate
+Update the database: Update-Database
+
+Using the NuGet Package Manager Console:
+    Install-Package Microsoft.EntityFrameworkCore
+    Install-Package Microsoft.EntityFrameworkCore.SqlServer
+    Install-Package Microsoft.EntityFrameworkCore.Tools
+Using the .NET CLI:
+    dotnet add package Microsoft.EntityFrameworkCore
+    dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+    dotnet add package Microsoft.EntityFrameworkCore.Tools
 
 
 ### April 11th 2025
