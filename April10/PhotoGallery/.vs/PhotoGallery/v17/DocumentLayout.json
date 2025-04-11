@@ -5,6 +5,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{A4438643-6026-47E4-8874-400CD22B6587}|PhotoGallery\\PhotoGallery.csproj|c:\\users\\2401673\\videos\\cts_training\\april10\\photogallery\\photogallery\\data\\photogallerycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4438643-6026-47E4-8874-400CD22B6587}|PhotoGallery\\PhotoGallery.csproj|solutionrelative:photogallery\\data\\photogallerycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4438643-6026-47E4-8874-400CD22B6587}|PhotoGallery\\PhotoGallery.csproj|c:\\users\\2401673\\videos\\cts_training\\april10\\photogallery\\photogallery\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4438643-6026-47E4-8874-400CD22B6587}|PhotoGallery\\PhotoGallery.csproj|solutionrelative:photogallery\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4438643-6026-47E4-8874-400CD22B6587}|PhotoGallery\\PhotoGallery.csproj|c:\\users\\2401673\\videos\\cts_training\\april10\\photogallery\\photogallery\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4438643-6026-47E4-8874-400CD22B6587}|PhotoGallery\\PhotoGallery.csproj|solutionrelative:photogallery\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4438643-6026-47E4-8874-400CD22B6587}|PhotoGallery\\PhotoGallery.csproj|c:\\users\\2401673\\videos\\cts_training\\april10\\photogallery\\photogallery\\models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4438643-6026-47E4-8874-400CD22B6587}|PhotoGallery\\PhotoGallery.csproj|solutionrelative:photogallery\\models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +26,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ImageController.cs",
+              "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April10\\PhotoGallery\\PhotoGallery\\Controllers\\ImageController.cs",
+              "RelativeDocumentMoniker": "PhotoGallery\\Controllers\\ImageController.cs",
+              "ToolTip": "C:\\Users\\2401673\\Videos\\CTS_training\\April10\\PhotoGallery\\PhotoGallery\\Controllers\\ImageController.cs",
+              "RelativeToolTip": "PhotoGallery\\Controllers\\ImageController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAUwDoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T11:04:02.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Image.cs",
+              "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April10\\PhotoGallery\\PhotoGallery\\Models\\Image.cs",
+              "RelativeDocumentMoniker": "PhotoGallery\\Models\\Image.cs",
+              "ToolTip": "C:\\Users\\2401673\\Videos\\CTS_training\\April10\\PhotoGallery\\PhotoGallery\\Models\\Image.cs",
+              "RelativeToolTip": "PhotoGallery\\Models\\Image.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T09:18:43.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CommentController.cs",
+              "DocumentMoniker": "C:\\Users\\2401673\\Videos\\CTS_training\\April10\\PhotoGallery\\PhotoGallery\\Controllers\\CommentController.cs",
+              "RelativeDocumentMoniker": "PhotoGallery\\Controllers\\CommentController.cs",
+              "ToolTip": "C:\\Users\\2401673\\Videos\\CTS_training\\April10\\PhotoGallery\\PhotoGallery\\Controllers\\CommentController.cs",
+              "RelativeToolTip": "PhotoGallery\\Controllers\\CommentController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T09:15:54.126Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -28,7 +78,7 @@
               "RelativeDocumentMoniker": "PhotoGallery\\Data\\PhotoGalleryContext.cs",
               "ToolTip": "C:\\Users\\2401673\\Videos\\CTS_training\\April10\\PhotoGallery\\PhotoGallery\\Data\\PhotoGalleryContext.cs",
               "RelativeToolTip": "PhotoGallery\\Data\\PhotoGalleryContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T05:31:43.109Z",
               "EditorCaption": ""
